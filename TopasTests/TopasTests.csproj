@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TopasBusinessLogic\TopasBusinessLogic.csproj" />
     <ProjectReference Include="..\TopasContracts\TopasContracts.csproj" />
+    <ProjectReference Include="..\TopasDatabase\TopasDatabase.csproj" />
   </ItemGroup>
 
 </Project>

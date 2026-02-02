@@ -5,9 +5,9 @@ using TopasContracts.Infrastructure;
 
 namespace TopasContracts.DataModels;
 
-public class PostDataModel(string id, string postName, PostType postType, double salary) : IValidation
+public class PostDataModel(string postId, string postName, PostType postType, double salary) : IValidation
 {
-    public string Id { get; private set; } = id;
+    public string Id { get; private set; } = postId;
     public string PostName { get; private set; } = postName;
     public PostType PostType { get; private set; } = postType;
     public double Salary { get; private set; } = salary;
