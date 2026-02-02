@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TopasContracts/TopasContracts.csproj" />
+  <Project Path="TopasTests/TopasTests.csproj" />
+</Solution>
